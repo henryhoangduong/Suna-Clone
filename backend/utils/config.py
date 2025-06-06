@@ -1,14 +1,16 @@
+import logging
 import os
 from enum import Enum
-from typing import Dict, Any, Optional, get_type_hints, Union
+from typing import Any, Dict, Optional, Union, get_type_hints
+
 from dotenv import load_dotenv
-import logging
 
 logger = logging.getLogger(__name__)
 
 
 class EnvMode(Enum):
     """Environment mode enumeration."""
+
     LOCAL = "local"
     STAGING = "staging"
     PRODUCTION = "production"
@@ -17,9 +19,6 @@ class EnvMode(Enum):
 class Configuration:
     ENV_MODE: EnvMode = EnvMode.LOCAL
 
-    ANTHROPIC_API_KEY: str = None
-    OPENAI_API_KEY: Optional[str] = None
-    GROQ_API_KEY: Optional[str] = None
     OPENROUTER_API_KEY: Optional[str] = None
     OPENROUTER_API_BASE: Optional[str] = "https://openrouter.ai/api/v1"
     OR_SITE_URL: Optional[str] = "https://kortix.ai"
@@ -47,7 +46,9 @@ class Configuration:
     FIRECRAWL_URL: Optional[str] = "https://api.firecrawl.dev"
 
     SANDBOX_IMAGE_NAME = "kortix/suna:0.1.3"
-    SANDBOX_ENTRYPOINT = "/usr/bin/supervisord -n -c /etc/supervisor/conf.d/supervisord.conf"
+    SANDBOX_ENTRYPOINT = (
+        "/usr/bin/supervisord -n -c /etc/supervisor/conf.d/supervisord.conf"
+    )
 
     LANGFUSE_PUBLIC_KEY: Optional[str] = None
     LANGFUSE_SECRET_KEY: Optional[str] = None
@@ -63,8 +64,7 @@ class Configuration:
         try:
             self.ENV_MODE = EnvMode(env_mode_str.lower())
         except ValueError:
-            logger.warning(
-                f"Invalid ENV_MODE: {env_mode_str}, defaulting to LOCAL")
+            logger.warning(f"Invalid ENV_MODE: {env_mode_str}, defaulting to LOCAL")
             self.ENV_MODE = EnvMode.LOCAL
 
         logger.info(f"Environment mode: {self.ENV_MODE.value}")
@@ -84,15 +84,17 @@ class Configuration:
                 # Convert environment variable to the expected type
                 if expected_type == bool:
                     # Handle boolean conversion
-                    setattr(self, key, env_val.lower() in (
-                        'true', 't', 'yes', 'y', '1'))
+                    setattr(
+                        self, key, env_val.lower() in ("true", "t", "yes", "y", "1")
+                    )
                 elif expected_type == int:
                     # Handle integer conversion
                     try:
                         setattr(self, key, int(env_val))
                     except ValueError:
                         logger.warning(
-                            f"Invalid value for {key}: {env_val}, using default")
+                            f"Invalid value for {key}: {env_val}, using default"
+                        )
                 elif expected_type == EnvMode:
                     # Already handled for ENV_MODE
                     pass
@@ -109,15 +111,20 @@ class Configuration:
         missing_fields = []
         for field, field_type in type_hints.items():
             # Check if the field is Optional
-            is_optional = hasattr(field_type, "__origin__") and field_type.__origin__ is Union and type(
-                None) in field_type.__args__
+            is_optional = (
+                hasattr(field_type, "__origin__")
+                and field_type.__origin__ is Union
+                and type(None) in field_type.__args__
+            )
 
             # If not optional and value is None, add to missing fields
             if not is_optional and getattr(self, field) is None:
                 missing_fields.append(field)
 
         if missing_fields:
-            error_msg = f"Missing required configuration fields: {', '.join(missing_fields)}"
+            error_msg = (
+                f"Missing required configuration fields: {', '.join(missing_fields)}"
+            )
             logger.error(error_msg)
             raise ValueError(error_msg)
 
@@ -130,7 +137,7 @@ class Configuration:
         return {
             key: getattr(self, key)
             for key in get_type_hints(self.__class__).keys()
-            if not key.startswith('_')
+            if not key.startswith("_")
         }
 
 
