@@ -1,10 +1,11 @@
-from typing import Optional
-from supabase import create_async_client, AsyncClient
-from utils.logger import logger
-from utils.config import config
 import base64
 import uuid
 from datetime import datetime
+from typing import Optional
+
+from supabase import AsyncClient, create_async_client
+from utils.config import config
+from utils.logger import logger
 
 
 class DBConnection:

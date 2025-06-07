@@ -1,14 +1,13 @@
-import logging
 import json
-import sys
+import logging
 import os
-from datetime import datetime, timezone
-from contextvars import ContextVar
+import sys
 import traceback
+from contextvars import ContextVar
+from datetime import datetime, timezone
 from logging.handlers import RotatingFileHandler
 
-from utils.config import config, EnvMode
-
+from utils.config import EnvMode, config
 
 request_id: ContextVar[str] = ContextVar("request_id", default="")
 

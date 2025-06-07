@@ -30,3 +30,747 @@
 2025-06-07 09:50:50,618 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
 2025-06-07 09:50:50,621 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
 2025-06-07 09:50:50,773 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:53:03,527 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:53:03,527 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:53:03,530 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:53:03,582 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:53:21,826 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:53:21,826 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:53:21,828 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:53:21,869 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:53:29,460 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:53:29,460 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:53:29,463 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:53:29,512 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:53:36,992 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:53:36,993 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:53:36,995 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:53:37,028 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:53:37,410 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:53:37,411 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:53:37,413 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:53:37,446 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:53:49,771 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:53:49,772 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:53:49,774 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:53:49,825 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:54:02,201 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:54:02,201 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:54:02,203 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:54:02,250 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:54:12,025 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:54:12,025 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:54:12,028 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:54:12,070 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:54:19,288 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:54:19,288 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:54:19,291 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:54:19,362 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:54:30,706 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:54:30,706 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:54:30,708 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:54:30,754 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:54:34,751 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:54:34,751 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:54:34,754 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:54:34,788 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:54:38,803 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:54:38,803 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:54:38,805 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:54:38,838 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:54:48,729 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:54:48,729 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:54:48,732 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:54:48,764 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:54:52,881 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:54:52,882 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:54:52,884 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:54:52,918 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:54:59,845 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:54:59,846 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:54:59,848 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:54:59,881 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:55:04,643 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:55:04,643 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:55:04,646 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:55:04,678 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:55:12,693 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:55:12,693 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:55:12,695 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:55:12,731 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:55:13,063 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:55:13,064 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:55:13,066 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:55:13,098 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:55:30,748 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:55:30,749 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:55:30,751 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:55:30,798 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:55:42,237 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:55:42,237 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:55:42,239 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:55:42,280 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:55:50,933 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:55:50,934 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:55:50,936 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:55:50,980 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:55:59,917 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:55:59,917 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:55:59,919 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:55:59,961 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:05,994 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:05,994 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:05,996 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:06,030 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:07,119 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:07,119 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:07,122 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:07,156 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:16,720 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:16,721 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:16,724 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:16,758 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:17,115 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:17,115 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:17,118 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:17,150 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:23,821 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:23,821 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:23,823 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:23,860 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:28,788 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:28,789 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:28,792 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:28,829 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:29,177 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:29,177 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:29,180 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:29,213 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:31,816 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:31,817 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:31,819 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:31,852 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:36,300 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:36,300 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:36,302 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:36,335 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:40,861 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:40,862 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:40,865 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:40,908 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:43,698 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:43,698 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:43,701 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:43,741 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:45,830 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:45,831 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:45,833 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:45,865 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:49,792 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:49,793 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:49,796 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:49,830 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:50,911 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:50,912 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:50,914 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:50,946 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:54,555 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:54,555 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:54,557 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:54,590 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:55,466 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:55,466 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:55,469 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:55,506 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:56:55,896 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:56:55,896 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:56:55,898 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:56:55,934 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:57:21,459 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:57:21,459 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:57:21,467 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:57:21,526 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:57:22,193 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:57:22,194 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:57:22,197 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:57:22,237 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:57:27,869 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:57:27,869 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:57:27,871 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:57:27,904 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:57:28,253 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:57:28,253 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:57:28,256 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:57:28,287 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:57:41,868 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:57:41,868 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:57:41,871 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:57:41,918 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:57:49,335 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:57:49,335 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:57:49,337 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:57:49,379 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:57:55,573 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:57:55,573 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:57:55,575 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:57:55,623 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:57:56,297 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:57:56,297 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:57:56,300 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:57:56,333 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:57:58,629 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:57:58,630 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:57:58,632 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:57:58,665 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:58:00,576 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:58:00,576 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:58:00,578 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:58:00,610 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:58:28,036 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:58:28,036 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:58:28,039 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:58:28,085 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:58:32,684 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:58:32,684 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:58:32,687 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:58:32,720 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:58:33,828 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:58:33,829 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:58:33,831 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:58:33,863 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:58:38,581 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:58:38,581 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:58:38,583 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:58:38,615 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 09:58:40,751 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:58:40,751 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:58:40,754 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:58:40,788 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:01:17,827 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:01:17,827 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:01:17,829 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:01:17,878 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:01:18,880 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:01:18,880 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:01:18,882 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:01:18,916 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:01:21,721 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:01:21,721 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:01:21,724 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:01:21,757 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:01:26,998 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:01:26,998 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:01:27,000 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:01:27,033 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:02:17,359 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:02:17,359 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:02:17,362 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:02:17,409 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:02:26,887 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:02:26,887 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:02:26,889 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:02:26,933 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:02:33,036 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:02:33,036 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:02:33,038 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:02:33,081 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:06,019 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:06,019 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:06,022 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:06,079 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:07,479 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:07,479 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:07,482 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:07,515 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:08,391 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:08,391 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:08,393 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:08,428 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:08,812 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:08,812 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:08,814 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:08,847 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:10,736 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:10,736 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:10,739 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:10,771 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:15,876 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:15,877 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:15,879 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:15,914 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:16,257 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:16,257 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:16,259 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:16,294 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:31,841 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:31,841 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:31,844 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:31,888 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:37,611 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:37,611 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:37,614 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:37,659 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:40,777 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:40,777 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:40,779 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:40,817 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:43,506 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:43,507 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:43,509 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:43,541 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:49,759 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:49,760 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:49,762 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:49,795 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:03:54,688 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:03:54,689 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:03:54,691 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:03:54,724 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:04:01,171 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:04:01,171 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:04:01,174 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:04:01,211 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:04:04,038 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:04:04,038 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:04:04,041 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:04:04,074 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:04:06,668 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:04:06,668 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:04:06,670 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:04:06,703 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:04:11,674 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:04:11,674 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:04:11,677 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:04:11,709 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:04:17,245 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:04:17,245 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:04:17,248 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:04:17,283 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:04:19,916 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:04:19,917 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:04:19,920 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:04:19,951 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:04:26,585 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:04:26,586 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:04:26,588 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:04:26,621 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:09:18,766 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:09:18,766 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:09:18,769 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:09:18,816 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:09:20,697 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:09:20,697 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:09:20,699 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:09:20,732 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:09:34,421 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:09:34,421 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:10:25,381 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:10:25,381 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:10:25,385 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:10:25,431 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:10:25,431 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:10:52,089 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:10:52,089 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:10:52,515 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:10:52,515 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:10:52,518 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:10:52,558 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:10:52,558 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:12:23,475 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:12:23,475 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:12:23,479 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:12:23,540 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:12:23,541 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:12:33,126 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:12:33,126 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:12:33,130 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:12:33,174 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:12:33,175 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:12:36,585 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:12:36,585 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:12:36,588 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:12:36,620 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:12:36,620 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:12:39,592 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:12:39,592 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:12:39,595 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:12:39,627 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:12:39,627 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:12:43,167 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:12:43,167 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:12:43,169 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:12:43,205 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:12:43,205 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:12:45,418 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:12:45,418 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:12:45,420 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:12:45,453 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:12:45,454 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:12:49,452 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:12:49,452 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:12:49,454 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:12:49,488 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:12:49,488 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:12:52,473 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:12:52,473 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:12:52,476 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:12:52,508 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:12:52,508 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:12:54,687 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:12:54,687 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:12:54,689 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:12:54,721 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:12:54,721 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:13:00,067 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:13:00,067 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:13:00,070 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:13:00,112 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:13:00,113 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:13:11,932 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:13:11,932 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:13:11,935 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:13:11,973 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:13:11,973 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:13:12,340 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:13:12,340 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:13:12,342 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:13:12,376 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:13:12,377 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:13:14,750 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:13:14,750 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:13:14,752 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:13:14,786 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:13:14,786 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:13:22,379 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:13:22,379 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:13:22,381 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:13:22,415 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:13:22,415 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:13:26,354 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:13:26,354 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:13:26,357 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:13:26,390 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:13:26,390 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:13:30,959 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:13:30,959 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:13:30,961 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:13:30,995 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:13:30,995 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:13:37,523 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:13:37,523 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:13:37,525 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:13:37,558 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:13:37,558 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:13:43,741 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:13:43,741 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:13:43,743 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:13:43,776 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:13:43,776 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:13:46,810 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:13:46,810 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:13:46,813 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:13:46,849 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:13:46,849 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:15:36,822 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:15:36,822 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:15:36,825 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:15:36,874 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:15:36,874 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:15:37,943 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:15:37,943 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:15:37,945 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:15:37,977 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:15:44,571 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:15:44,571 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:15:44,576 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:15:44,611 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:15:44,611 - agentpress - INFO - api.py:15 - Initialized agent API with instance ID: single
+2025-06-07 10:15:44,611 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:15:53,690 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 10:15:53,690 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:15:53,693 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 10:15:53,726 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:15:53,726 - agentpress - INFO - api.py:15 - Initialized agent API with instance ID: single
+2025-06-07 10:15:53,726 - agentpress - INFO - api.py:16 - Initialized sandbox API with database connection
+2025-06-07 10:15:57,156 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:15:57,157 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:15:57,161 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:15:57,199 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:15:57,199 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:15:57,199 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:17:45,877 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:17:45,878 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:17:45,881 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:17:45,935 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:17:45,935 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:17:45,935 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:17:53,300 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:17:53,300 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:17:53,303 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:17:53,346 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:17:53,346 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:17:53,346 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:18:00,675 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:18:00,675 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:18:00,678 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:18:00,720 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:18:00,720 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:18:00,720 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:18:07,997 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:18:07,997 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:18:08,000 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:18:08,041 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:18:08,041 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:18:08,041 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:18:36,310 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:18:36,310 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:18:36,313 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:18:36,355 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:18:36,355 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:18:36,355 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:18:37,886 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:18:37,887 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:18:37,889 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:18:37,930 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:18:37,931 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:18:37,931 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:18:40,820 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:18:40,820 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:18:40,823 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:18:40,854 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:18:40,854 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:18:40,854 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:18:46,198 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:18:46,198 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:18:46,201 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:18:46,234 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:18:46,234 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:18:46,234 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:18:46,638 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:18:46,638 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:18:46,640 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:18:46,673 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:18:46,673 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:18:46,673 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:19:14,894 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:19:14,895 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:19:14,897 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:19:14,941 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:19:14,941 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:19:14,941 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:19:25,132 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:19:25,132 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:19:25,135 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:19:25,179 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:19:25,179 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:19:25,179 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:19:28,514 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:19:28,514 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:19:28,517 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:19:28,551 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:19:28,551 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:19:28,551 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:19:30,665 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:19:30,665 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:19:30,667 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:19:30,700 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:19:30,700 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:19:30,700 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:20:56,416 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:20:56,417 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:20:56,419 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:20:56,466 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:20:56,466 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:20:56,466 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:20:57,575 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:20:57,575 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:20:57,577 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:20:57,609 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:20:57,610 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:20:57,610 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:21:05,655 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:21:05,655 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:21:05,658 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:21:05,690 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:21:05,691 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:21:05,691 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:21:08,663 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:21:08,663 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:21:08,666 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:21:08,700 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:21:08,700 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:21:08,700 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:21:12,319 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:21:12,319 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:21:12,321 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:21:12,354 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:21:12,355 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:21:12,355 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:22:22,858 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:22:22,858 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:22:22,861 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:22:22,912 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:22:22,912 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:22:22,912 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:22:43,871 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:22:43,871 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:22:44,273 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:22:44,273 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:22:44,276 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:22:44,318 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:22:44,318 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:22:44,318 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:23:39,736 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:23:39,736 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:23:39,740 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:23:39,788 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:23:39,788 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:23:39,788 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:23:45,834 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:23:45,834 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:23:45,837 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:23:45,880 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:23:45,880 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:23:45,880 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:23:48,560 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:23:48,560 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:23:48,563 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:23:48,596 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:23:48,596 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:23:48,596 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:23:51,483 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:23:51,483 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:23:51,485 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:23:51,518 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:23:51,518 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:23:51,518 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:23:54,319 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:23:54,319 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:23:54,321 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:23:54,353 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:23:54,354 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:23:54,354 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:23:57,270 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:23:57,271 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:23:57,273 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:23:57,306 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:23:57,306 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:23:57,306 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:23:59,452 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:23:59,452 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:23:59,454 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:23:59,486 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:23:59,486 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:23:59,486 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:24:04,600 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:24:04,601 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:24:04,603 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:24:04,638 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:24:04,638 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:24:04,638 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:24:04,996 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:24:04,996 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:24:04,999 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:24:05,031 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:24:05,031 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:24:05,031 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:24:07,265 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:24:07,265 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:24:07,268 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:24:07,300 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:24:07,300 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:24:07,300 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:24:18,863 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:24:18,863 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:24:18,866 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:24:18,912 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:24:18,912 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:24:18,912 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:24:20,742 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:24:20,742 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:24:20,744 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:24:20,779 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:24:20,779 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:24:20,779 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:24:27,049 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:24:27,050 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:24:27,052 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:24:27,085 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:24:27,085 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:24:27,085 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:24:35,540 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:24:35,541 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:24:35,544 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:24:35,625 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:24:35,625 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:24:35,625 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:24:39,584 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:24:39,584 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:24:39,586 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:24:39,618 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:24:39,619 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:24:39,619 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:24:49,564 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:24:49,564 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:24:49,568 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:24:49,610 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:24:49,610 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:24:49,610 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:24:51,541 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:24:51,541 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:24:51,543 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:24:51,576 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:24:51,576 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:24:51,576 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:24:55,552 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:24:55,552 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:24:55,555 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:24:55,591 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:24:55,592 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:24:55,592 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:25:01,263 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:25:01,263 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:25:01,266 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:25:01,299 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:25:01,300 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:25:01,300 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:25:09,760 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:25:09,760 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:25:09,763 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:25:09,795 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:25:09,795 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:25:09,795 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:25:09,820 - agentpress - INFO - redis.py:57 - Initializing Redis connection
+2025-06-07 10:25:09,821 - agentpress - INFO - redis.py:26 - Initializing Redis connection to redis:6379
+2025-06-07 10:25:09,882 - agentpress - ERROR - redis.py:65 - Failed to connect to Redis: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-06-07 10:25:10,246 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:25:10,246 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:25:10,249 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:25:10,281 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:25:10,282 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:25:10,282 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:25:10,296 - agentpress - INFO - redis.py:57 - Initializing Redis connection
+2025-06-07 10:25:10,297 - agentpress - INFO - redis.py:26 - Initializing Redis connection to redis:6379
+2025-06-07 10:25:10,301 - agentpress - ERROR - redis.py:65 - Failed to connect to Redis: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-06-07 10:25:41,896 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:25:41,896 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:25:42,299 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:25:42,299 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:25:42,301 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:25:42,348 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:25:42,349 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:25:42,349 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:25:42,377 - agentpress - INFO - redis.py:57 - Initializing Redis connection
+2025-06-07 10:25:42,379 - agentpress - INFO - redis.py:26 - Initializing Redis connection to redis:6379
+2025-06-07 10:25:42,384 - agentpress - ERROR - redis.py:65 - Failed to connect to Redis: Error 8 connecting to redis:6379. nodename nor servname provided, or not known.
+2025-06-07 10:26:25,752 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:26:25,752 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:26:26,233 - agentpress - INFO - logger.py:92 - Added console handler with level: 10
+2025-06-07 10:26:26,233 - agentpress - INFO - logger.py:93 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 10:26:26,236 - agentpress - DEBUG - supabase.py:41 - Initializing Supabase connection
+2025-06-07 10:26:26,285 - agentpress - DEBUG - supabase.py:47 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
+2025-06-07 10:26:26,285 - agentpress - INFO - api.py:16 - Initialized agent API with instance ID: single
+2025-06-07 10:26:26,285 - agentpress - INFO - api.py:18 - Initialized sandbox API with database connection
+2025-06-07 10:26:26,309 - agentpress - INFO - redis.py:57 - Initializing Redis connection
+2025-06-07 10:26:26,311 - agentpress - INFO - redis.py:26 - Initializing Redis connection to localhost:6379
+2025-06-07 10:26:26,314 - agentpress - INFO - redis.py:62 - Successfully connected to Redis

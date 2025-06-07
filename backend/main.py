@@ -1,13 +1,16 @@
 import logging
+import sys
 from collections import OrderedDict
 from contextlib import asynccontextmanager
 
 from dotenv import load_dotenv
 from fastapi import FastAPI
-from utils.config import config
-import sys
 from fastapi.middleware.cors import CORSMiddleware
+
+from agent import api as agent_api
+from sandbox import api as sandbox_api
 from services.supabase import DBConnection
+from utils.config import config
 
 db = DBConnection()
 
@@ -24,10 +27,19 @@ async def lifespan(app: FastAPI):
     )
     try:
         await db.initialize()
+        agent_api.initialize(db, instance_id)
+        sandbox_api.initialize(db)
+        from services import redis
+        try:
+            await redis.initialize_async()
+            logger.info("Redis connection initialized successfully")
+        except Exception as e:
+            logger.error(f"Failed to initialize Redis connection: {e}")
         yield
     except Exception as e:
         logger.error(f"Error during application startup: {e}")
         raise
+
 
 allowed_origins = ["https://www.suna.so",
                    "https://suna.so", "http://localhost:3000"]
