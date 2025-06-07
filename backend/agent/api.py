@@ -1,24 +1,37 @@
+import asyncio
 import json
+import os
 import traceback
 import uuid
+from datetime import datetime, timezone
+from pathlib import Path
 from typing import List, Optional
-import asyncio
+
 from fastapi import (APIRouter, Body, Depends, File, Form, HTTPException,
                      Query, Request, UploadFile)
 from pydantic import BaseModel
-import os
+
+from sandbox.sandbox import create_sandbox, delete_sandbox
 from services import redis
 from services.supabase import DBConnection
 from utils.auth_utils import get_current_user_id_from_jwt
 from utils.config import config
 from utils.constants import MODEL_NAME_ALIASES
 from utils.logger import logger
-from datetime import datetime, timezone
-from sandbox.sandbox import create_sandbox, delete_sandbox
-from pathlib import Path
+
 router = APIRouter()
 db = None
 instance_id = None
+
+
+class AgentStartRequest(BaseModel):
+    # Will be set from config.MODEL_TO_USE in the endpoint
+    model_name: Optional[str] = None
+    enable_thinking: Optional[bool] = False
+    reasoning_effort: Optional[str] = 'low'
+    stream: Optional[bool] = True
+    enable_context_manager: Optional[bool] = False
+    agent_id: Optional[str] = None
 
 
 class InitiateAgentResponse(BaseModel):
@@ -85,6 +98,25 @@ async def stop_agent_run(agent_run_id: str, error_message: Optional[str] = None)
         )
 
 
+async def verify_thread_access(client, thread_id: str, user_id: str):
+    thread_result = await client.table('threads').select('*,project_id').eq('thread_id', thread_id).execute()
+    if not thread_result.data or len(thread_result.data) == 0:
+        raise HTTPException(status_code=404, detail="Thread not found")
+    thread_data = thread_result.data[0]
+    # Check if project is public
+    project_id = thread_data.get('project_id')
+    if project_id:
+        project_result = await client.table('projects').select('is_public').eq('project_id', project_id).execute()
+        if project_result.data and len(project_result.data) > 0:
+            if project_result.data[0].get('is_public'):
+                return True
+    account_id = thread_data.get('account_id')
+    if account_id:
+        account_user_result = await client.schema('basejump').from_('account_user').select('account_role').eq('user_id', user_id).eq('account_id', account_id).execute()
+        if account_user_result.data and len(account_user_result.data) > 0:
+            return True
+    raise HTTPException(
+        status_code=403, detail="Not authorized to access this thread")
 # async def generate_and_update_project_name(project_id: str, prompt: str):
 #     logger.info(
 #         f"Starting background task to generate name for project: {project_id}")
@@ -338,3 +370,50 @@ async def initiate_agent_with_files(
         # TODO: Clean up created project/thread if initiation fails mid-way
         raise HTTPException(
             status_code=500, detail=f"Failed to initiate agent session: {str(e)}")
+
+
+@router.post("/thread/{thread_id}/agent/start")
+async def start_agent(
+    thread_id: str,
+    body: AgentStartRequest = Body(...),
+    user_id: str = Depends(get_current_user_id_from_jwt)
+):
+    global instance_id
+    if not instance_id:
+        raise HTTPException(
+            status_code=500, detail="Agent API not initialized with instance ID")
+    model_name = body.model_name
+    logger.info(f"Original model_name from request: {model_name}")
+    if model_name is None:
+        model_name = config.MODEL_TO_USE
+        logger.info(f"Using model from config: {model_name}")
+    resolved_model = MODEL_NAME_ALIASES.get(model_name, model_name)
+    logger.info(f"Resolved model name: {resolved_model}")
+    model_name = resolved_model
+    logger.info(
+        f"Starting new agent for thread: {thread_id} with config: model={model_name}, thinking={body.enable_thinking}, effort={body.reasoning_effort}, stream={body.stream}, context_manager={body.enable_context_manager} (Instance: {instance_id})")
+    client = await db.client
+    await verify_thread_access(client, thread_id, user_id)
+    thread_result = await client.table('threads').select('project_id', 'account_id', 'agent_id', 'metadata').eq('thread_id', thread_id).execute()
+    if not thread_result.data:
+        raise HTTPException(status_code=404, detail="Thread not found")
+    thread_data = thread_result.data[0]
+    project_id = thread_data.get('project_id')
+    account_id = thread_data.get('account_id')
+    thread_agent_id = thread_data.get('agent_id')
+    thread_metadata = thread_data.get('metadata', {})
+
+    is_agent_builder = thread_metadata.get('is_agent_builder', False)
+    target_agent_id = thread_metadata.get('target_agent_id')
+    if is_agent_builder:
+        logger.info(
+            f"Thread {thread_id} is in agent builder mode, target_agent_id: {target_agent_id}")
+
+    agent_config = None
+    # Use provided agent_id or the one stored in thread
+    effective_agent_id = body.agent_id or thread_agent_id
+
+
+@router.post("/agent/{thread_id}/agent/start")
+async def stop_agent(agent_run_id: str, user_id: str = Depends(get_current_user_id_from_jwt)):
+    logger.info(f"Received request to stop agent run: {agent_run_id}")

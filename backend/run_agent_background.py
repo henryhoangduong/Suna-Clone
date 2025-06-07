@@ -1,9 +1,16 @@
+import os
 import uuid
 
 from services import redis
 from services.supabase import DBConnection
 from utils.logger import logger
-
+from dramatiq.brokers.rabbitmq import RabbitmqBroker
+import dramatiq
+rabbitmq_host = os.getenv('RABBITMQ_HOST', 'rabbitmq')
+rabbitmq_port = int(os.getenv('RABBITMQ_PORT', 5672))
+rabbitmq_broker = RabbitmqBroker(host=rabbitmq_host, port=rabbitmq_port, middleware=[
+                                 dramatiq.middleware.AsyncIO()])
+dramatiq.set_broker(rabbitmq_broker)
 _initialized = False
 db = DBConnection()
 instance_id = "single"

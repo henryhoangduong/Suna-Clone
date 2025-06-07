@@ -1,6 +1,7 @@
-from typing import Optional, Any, List, Dict, Union, AsyncGenerator
-from utils.logger import logger
+from typing import Any, AsyncGenerator, Dict, List, Optional, Union
+
 from utils.config import config
+from utils.logger import logger
 
 
 async def make_llm_api_call(
