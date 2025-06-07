@@ -12,13 +12,7 @@ EXCLUDED_FILES = {
     "tsconfig.json",
 }
 
-EXCLUDED_DIRS = {
-    "node_modules",
-    ".next",
-    "dist",
-    "build",
-    ".git"
-}
+EXCLUDED_DIRS = {"node_modules", ".next", "dist", "build", ".git"}
 
 EXCLUDED_EXT = {
     ".ico",
@@ -31,7 +25,7 @@ EXCLUDED_EXT = {
     ".tiff",
     ".webp",
     ".db",
-    ".sql"
+    ".sql",
 }
 
 
@@ -51,3 +45,14 @@ def should_exclude_file(rel_path: str) -> bool:
         return True
 
     return False
+
+
+def clean_path(path: str, workspace_path: str = "/workspace") -> str:
+    path = path.lstrip("/")
+    if path.startswith(workspace_path.lstrip("/")):
+        path = path[len(workspace_path.lstrip("/")) :]
+    if path.startswith("workspace/"):
+        path = path[9:]
+    path = path.lstrip("/")
+
+    return path

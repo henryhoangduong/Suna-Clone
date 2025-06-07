@@ -1,0 +1,32 @@
+2025-06-07 09:46:14,516 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:46:14,516 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:46:14,947 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:46:14,947 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:47:11,268 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:47:11,269 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:47:11,684 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:47:11,684 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:47:43,305 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:47:43,305 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:47:58,982 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:47:58,982 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:48:07,262 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:48:07,262 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:48:20,325 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:48:20,325 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:48:26,773 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:48:26,773 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:48:43,579 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:48:43,579 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:49:36,900 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:49:36,900 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:49:37,308 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:49:37,308 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:50:38,577 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:50:38,577 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:50:39,011 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:50:39,011 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:50:50,618 - agentpress - INFO - logger.py:93 - Added console handler with level: 10
+2025-06-07 09:50:50,618 - agentpress - INFO - logger.py:94 - Log file will be created at: /Users/mac/Projects/RAG/suna-clone/backend/logs
+2025-06-07 09:50:50,621 - agentpress - DEBUG - supabase.py:40 - Initializing Supabase connection
+2025-06-07 09:50:50,773 - agentpress - DEBUG - supabase.py:46 - Database connection initialized with Supabase using SERVICE_ROLE_KEY
