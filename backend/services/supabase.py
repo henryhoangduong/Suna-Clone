@@ -50,3 +50,13 @@ class DBConnection:
         except Exception as e:
             logger.error(f"Database initialization error: {e}")
             raise RuntimeError(f"Failed to initialize database connection: {str(e)}")
+
+    @property
+    async def client(self) -> AsyncClient:
+        if not self._initialized:
+            logger.debug("Supabase client not initialized, initializing now")
+            await self.initialize()
+        if not self._client:
+            logger.error("Database client is None after initialization")
+            raise RuntimeError("Database not initialized")
+        return self._client

@@ -1,13 +1,15 @@
 import logging
 import sys
+import time
 from collections import OrderedDict
 from contextlib import asynccontextmanager
 
 from dotenv import load_dotenv
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 
 from agent import api as agent_api
+from flags import api as feature_flags_api
 from sandbox import api as sandbox_api
 from services.supabase import DBConnection
 from utils.config import config
@@ -30,6 +32,7 @@ async def lifespan(app: FastAPI):
         agent_api.initialize(db, instance_id)
         sandbox_api.initialize(db)
         from services import redis
+
         try:
             await redis.initialize_async()
             logger.info("Redis connection initialized successfully")
@@ -54,6 +57,41 @@ app.add_middleware(
     allow_methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allow_headers=["Content-Type", "Authorization"],
 )
+
+
+@app.middleware("http")
+async def log_requests_middleware(request: Request, call_next):
+    start_time = time.time()
+    client_ip = request.client.host
+    method = request.method
+    url = str(request.url)
+    path = request.url.path
+    query_params = str(request.query_params)
+
+    # Log the incoming request
+    logger.info(
+        f"Request started: {method} {path} from {client_ip} | Query: {query_params}"
+    )
+
+    try:
+        response = await call_next(request)
+        process_time = time.time() - start_time
+        logger.debug(
+            f"Request completed: {method} {path} | Status: {response.status_code} | Time: {process_time:.2f}s"
+        )
+        return response
+    except Exception as e:
+        process_time = time.time() - start_time
+        logger.error(
+            f"Request failed: {method} {path} | Error: {str(e)} | Time: {process_time:.2f}s"
+        )
+        raise
+
+app.include_router(agent_api.router, tags=["Agent"], prefix="/api")
+
+app.include_router(feature_flags_api.router, tags=["Feature"], prefix="/api")
+
+
 if __name__ == "__main__":
     import uvicorn
 
