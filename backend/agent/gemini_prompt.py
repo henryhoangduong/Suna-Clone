@@ -1584,9 +1584,8 @@ Is there anything specific you'd like me to adjust or explain in more detail abo
 
 
 def get_gemini_system_prompt():
-  return SYSTEM_PROMPT + EXAMPLE
-  
+    return SYSTEM_PROMPT + EXAMPLE
+
 
 # if __name__ == "__main__":
 #   print(get_gemini_system_prompt())
-  

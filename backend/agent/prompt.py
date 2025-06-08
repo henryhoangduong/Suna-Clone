@@ -622,7 +622,7 @@ For casual conversation and social interactions:
 
 
 def get_system_prompt():
-    '''
+    """
     Returns the system prompt
-    '''
-    return SYSTEM_PROMPT 
+    """
+    return SYSTEM_PROMPT

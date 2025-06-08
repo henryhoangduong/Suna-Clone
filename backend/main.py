@@ -44,8 +44,7 @@ async def lifespan(app: FastAPI):
         raise
 
 
-allowed_origins = ["https://www.suna.so",
-                   "https://suna.so", "http://localhost:3000"]
+allowed_origins = ["https://www.suna.so", "https://suna.so", "http://localhost:3000"]
 allow_origin_regex = None
 
 app = FastAPI(lifespan=lifespan)
@@ -87,6 +86,7 @@ async def log_requests_middleware(request: Request, call_next):
         )
         raise
 
+
 app.include_router(agent_api.router, tags=["Agent"], prefix="/api")
 
 app.include_router(feature_flags_api.router, tags=["Feature"], prefix="/api")
@@ -101,5 +101,4 @@ if __name__ == "__main__":
     workers = 1
 
     logger.info(f"Starting server on 0.0.0.0:8000 with {workers} workers")
-    uvicorn.run("api:app", host="0.0.0.0", port=8000,
-                workers=workers, loop="asyncio")
+    uvicorn.run("api:app", host="0.0.0.0", port=8000, workers=workers, loop="asyncio")

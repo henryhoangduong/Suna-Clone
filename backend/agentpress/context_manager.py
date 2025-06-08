@@ -1,14 +1,15 @@
 import json
-from typing import List, Dict, Any, Optional
+from typing import Any, Dict, List, Optional
 
-from litellm import token_counter, completion_cost
-from services.supabase import DBConnection
+from litellm import completion_cost, token_counter
+
 from services.llm import make_llm_api_call
+from services.supabase import DBConnection
 from utils.logger import logger
 
 DEFAULT_TOKEN_THRESHOLD = 120000  # 80k tokens threshold for summarization
-SUMMARY_TARGET_TOKENS = 10000    # Target ~10k tokens for the summary message
-RESERVE_TOKENS = 5000            # Reserve tokens for new messages
+SUMMARY_TARGET_TOKENS = 10000  # Target ~10k tokens for the summary message
+RESERVE_TOKENS = 5000  # Reserve tokens for new messages
 
 
 class ContextManager:
@@ -35,7 +36,8 @@ class ContextManager:
             token_count = token_counter(model="gpt-4", messages=messages)
 
             logger.info(
-                f"Thread {thread_id} has {token_count} tokens (calculated with litellm)")
+                f"Thread {thread_id} has {token_count} tokens (calculated with litellm)"
+            )
             return token_count
         except Exception as e:
             logger.error(f"Error getting token count: {str(e)}")

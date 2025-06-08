@@ -1,6 +1,7 @@
 from typing import Dict
 
-from agent.tools.data_providers.RapidDataProviderBase import RapidDataProviderBase, EndpointSchema
+from agent.tools.data_providers.RapidDataProviderBase import (
+    EndpointSchema, RapidDataProviderBase)
 
 
 class ActiveJobsProvider(RapidDataProviderBase):
@@ -29,17 +30,18 @@ class ActiveJobsProvider(RapidDataProviderBase):
                     "li_organization_slug_exclusion_filter": "Optional. Exclude LinkedIn company slugs.",
                     "li_industry_filter": "Optional. Filter by LinkedIn industry.",
                     "li_organization_specialties_filter": "Optional. Filter by LinkedIn company specialties.",
-                    "li_organization_description_filter": "Optional. Filter by LinkedIn company description."
-                }
+                    "li_organization_description_filter": "Optional. Filter by LinkedIn company description.",
+                },
             }
         }
-           
+
         base_url = "https://active-jobs-db.p.rapidapi.com"
         super().__init__(base_url, endpoints)
 
 
 if __name__ == "__main__":
     from dotenv import load_dotenv
+
     load_dotenv()
     tool = ActiveJobsProvider()
 
@@ -49,9 +51,9 @@ if __name__ == "__main__":
         payload={
             "limit": "10",
             "offset": "0",
-            "title_filter": "\"Data Engineer\"",
-            "location_filter": "\"United States\" OR \"United Kingdom\"",
-            "description_type": "text"
-        }
+            "title_filter": '"Data Engineer"',
+            "location_filter": '"United States" OR "United Kingdom"',
+            "description_type": "text",
+        },
     )
     print("Active Jobs:", jobs)

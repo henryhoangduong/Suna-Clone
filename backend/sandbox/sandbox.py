@@ -42,8 +42,7 @@ async def get_or_start_sandbox(sandbox_id: str):
             sandbox.instance.state == WorkspaceState.ARCHIVED
             or sandbox.instance.state == WorkspaceState.STOPPED
         ):
-            logger.info(
-                f"Sandbox is in {sandbox.instance.state} state. Starting...")
+            logger.info(f"Sandbox is in {sandbox.instance.state} state. Starting...")
             try:
                 daytona.start(sandbox)
 
@@ -80,12 +79,11 @@ def start_supervisord_session(sandbox: Sandbox):
 
 def create_sandbox(password: str, project_id: str = None):
     logger.debug("Creating new Daytona sandbox environment")
-    logger.debug(
-        "Configuring sandbox with browser-use image and environment variables")
+    logger.debug("Configuring sandbox with browser-use image and environment variables")
     labels = None
     if project_id:
         logger.debug(f"Using sandbox_id as label: {project_id}")
-        labels = {'id': project_id}
+        labels = {"id": project_id}
     params = CreateSandboxParams(
         image=Configuration.SANDBOX_IMAGE_NAME,
         public=True,
@@ -101,13 +99,13 @@ def create_sandbox(password: str, project_id: str = None):
             "CHROME_USER_DATA": "",
             "CHROME_DEBUGGING_PORT": "9222",
             "CHROME_DEBUGGING_HOST": "localhost",
-            "CHROME_CDP": ""
+            "CHROME_CDP": "",
         },
         resources={
             "cpu": 2,
             "memory": 4,
             "disk": 5,
-        }
+        },
     )
 
     sandbox = daytona.create(params)

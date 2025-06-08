@@ -1,6 +1,7 @@
 from typing import Dict
 
-from agent.tools.data_providers.RapidDataProviderBase import RapidDataProviderBase, EndpointSchema
+from agent.tools.data_providers.RapidDataProviderBase import (
+    EndpointSchema, RapidDataProviderBase)
 
 
 class LinkedinProvider(RapidDataProviderBase):
@@ -11,27 +12,21 @@ class LinkedinProvider(RapidDataProviderBase):
                 "method": "POST",
                 "name": "Person Data",
                 "description": "Fetches any Linkedin profiles data including skills, certificates, experiences, qualifications and much more.",
-                "payload": {
-                    "link": "LinkedIn Profile URL"
-                }
+                "payload": {"link": "LinkedIn Profile URL"},
             },
             "person_urn": {
                 "route": "/person_urn",
                 "method": "POST",
                 "name": "Person Data (Using Urn)",
                 "description": "It takes profile urn instead of profile public identifier in input",
-                "payload": {
-                    "link": "LinkedIn Profile URL or URN"
-                }
+                "payload": {"link": "LinkedIn Profile URL or URN"},
             },
             "person_deep": {
                 "route": "/person_deep",
                 "method": "POST",
                 "name": "Person Data (Deep)",
                 "description": "Fetches all experiences, educations, skills, languages, publications... related to a profile.",
-                "payload": {
-                    "link": "LinkedIn Profile URL"
-                }
+                "payload": {"link": "LinkedIn Profile URL"},
             },
             "profile_updates": {
                 "route": "/profile_updates",
@@ -42,8 +37,8 @@ class LinkedinProvider(RapidDataProviderBase):
                     "profile_url": "LinkedIn Profile URL",
                     "page": "Page number",
                     "reposts": "Include reposts (1 or 0)",
-                    "comments": "Include comments (1 or 0)"
-                }
+                    "comments": "Include comments (1 or 0)",
+                },
             },
             "profile_recent_comments": {
                 "route": "/profile_recent_comments",
@@ -53,8 +48,8 @@ class LinkedinProvider(RapidDataProviderBase):
                 "payload": {
                     "profile_url": "LinkedIn Profile URL",
                     "page": "Page number",
-                    "paginationToken": "Token for pagination"
-                }
+                    "paginationToken": "Token for pagination",
+                },
             },
             "comments_from_recent_activity": {
                 "route": "/comments_from_recent_activity",
@@ -63,53 +58,43 @@ class LinkedinProvider(RapidDataProviderBase):
                 "description": "Fetches recent comments posted by a person as per his recent activity tab.",
                 "payload": {
                     "profile_url": "LinkedIn Profile URL",
-                    "page": "Page number"
-                }
+                    "page": "Page number",
+                },
             },
             "person_skills": {
                 "route": "/person_skills",
                 "method": "POST",
                 "name": "Person Skills",
                 "description": "Scraper all skills of a linkedin user",
-                "payload": {
-                    "link": "LinkedIn Profile URL"
-                }
+                "payload": {"link": "LinkedIn Profile URL"},
             },
             "email_to_linkedin_profile": {
                 "route": "/email_to_linkedin_profile",
                 "method": "POST",
                 "name": "Email to LinkedIn Profile",
                 "description": "Finds LinkedIn profile associated with an email address",
-                "payload": {
-                    "email": "Email address to search"
-                }
+                "payload": {"email": "Email address to search"},
             },
             "company": {
                 "route": "/company",
                 "method": "POST",
                 "name": "Company Data",
                 "description": "Fetches LinkedIn company profile data",
-                "payload": {
-                    "link": "LinkedIn Company URL"
-                }
+                "payload": {"link": "LinkedIn Company URL"},
             },
             "web_domain": {
                 "route": "/web-domain",
                 "method": "POST",
                 "name": "Web Domain to Company",
                 "description": "Fetches LinkedIn company profile data from a web domain",
-                "payload": {
-                    "link": "Website domain (e.g., huzzle.app)"
-                }
+                "payload": {"link": "Website domain (e.g., huzzle.app)"},
             },
             "similar_profiles": {
                 "route": "/similar_profiles",
                 "method": "GET",
                 "name": "Similar Profiles",
                 "description": "Fetches profiles similar to a given LinkedIn profile",
-                "payload": {
-                    "profileUrl": "LinkedIn Profile URL"
-                }
+                "payload": {"profileUrl": "LinkedIn Profile URL"},
             },
             "company_jobs": {
                 "route": "/company_jobs",
@@ -118,8 +103,8 @@ class LinkedinProvider(RapidDataProviderBase):
                 "description": "Fetches job listings from a LinkedIn company page",
                 "payload": {
                     "company_url": "LinkedIn Company URL",
-                    "count": "Number of job listings to fetch"
-                }
+                    "count": "Number of job listings to fetch",
+                },
             },
             "company_updates": {
                 "route": "/company_updates",
@@ -130,18 +115,15 @@ class LinkedinProvider(RapidDataProviderBase):
                     "company_url": "LinkedIn Company URL",
                     "page": "Page number",
                     "reposts": "Include reposts (0, 1, or 2)",
-                    "comments": "Include comments (0, 1, or 2)"
-                }
+                    "comments": "Include comments (0, 1, or 2)",
+                },
             },
             "company_employee": {
                 "route": "/company_employee",
                 "method": "GET",
                 "name": "Company Employees",
                 "description": "Fetches employees of a LinkedIn company using company ID",
-                "payload": {
-                    "companyId": "LinkedIn Company ID",
-                    "page": "Page number"
-                }
+                "payload": {"companyId": "LinkedIn Company ID", "page": "Page number"},
             },
             "company_updates_post": {
                 "route": "/company_updates",
@@ -152,8 +134,8 @@ class LinkedinProvider(RapidDataProviderBase):
                     "company_url": "LinkedIn Company URL",
                     "posts": "Number of posts to fetch",
                     "comments": "Number of comments to fetch per post",
-                    "reposts": "Number of reposts to fetch"
-                }
+                    "reposts": "Number of reposts to fetch",
+                },
             },
             "search_posts_with_filters": {
                 "route": "/search_posts_with_filters",
@@ -171,8 +153,8 @@ class LinkedinProvider(RapidDataProviderBase):
                     "author_company": "ID of company author works for (comma-separated for multiple)",
                     "author_industry": "URN of industry author is connected with (comma-separated for multiple)",
                     "mentions_member": "URN of person mentioned in post (comma-separated for multiple)",
-                    "mentions_organization": "ID of organization mentioned in post (comma-separated for multiple)"
-                }
+                    "mentions_organization": "ID of organization mentioned in post (comma-separated for multiple)",
+                },
             },
             "search_jobs": {
                 "route": "/search_jobs",
@@ -193,8 +175,8 @@ class LinkedinProvider(RapidDataProviderBase):
                     "industryIdsList": "List of industry IDs, comma-separated",
                     "functionIdsList": "List of function IDs, comma-separated",
                     "titleIdsList": "List of job title IDs, comma-separated",
-                    "locationIdsList": "List of location IDs within specified searchLocationId country, comma-separated"
-                }
+                    "locationIdsList": "List of location IDs within specified searchLocationId country, comma-separated",
+                },
             },
             "search_people_with_filters": {
                 "route": "/search_people_with_filters",
@@ -215,8 +197,8 @@ class LinkedinProvider(RapidDataProviderBase):
                     "service_catagory_list": "List of service categories (comma-separated)",
                     "school_free_text": "School name to filter by",
                     "industry_list": "List of industries (comma-separated IDs)",
-                    "school_list": "List of schools (comma-separated IDs)"
-                }
+                    "school_list": "List of schools (comma-separated IDs)",
+                },
             },
             "search_company_with_filters": {
                 "route": "/search_company_with_filters",
@@ -229,9 +211,9 @@ class LinkedinProvider(RapidDataProviderBase):
                     "company_size_list": "List of company sizes (comma-separated, e.g., A,D)",
                     "hasJobs": "Filter companies with jobs (true or false)",
                     "location_list": "List of location IDs (comma-separated)",
-                    "industry_list": "List of industry IDs (comma-separated)"
-                }
-            }
+                    "industry_list": "List of industry IDs (comma-separated)",
+                },
+            },
         }
         base_url = "https://linkedin-data-scraper.p.rapidapi.com"
         super().__init__(base_url, endpoints)
@@ -239,12 +221,15 @@ class LinkedinProvider(RapidDataProviderBase):
 
 if __name__ == "__main__":
     from dotenv import load_dotenv
+
     load_dotenv()
     tool = LinkedinProvider()
 
     result = tool.call_endpoint(
         route="comments_from_recent_activity",
-        payload={"profile_url": "https://www.linkedin.com/in/adamcohenhillel/", "page": 1}
+        payload={
+            "profile_url": "https://www.linkedin.com/in/adamcohenhillel/",
+            "page": 1,
+        },
     )
     print(result)
-

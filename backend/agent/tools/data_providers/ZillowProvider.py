@@ -1,7 +1,8 @@
-from typing import Dict
 import logging
+from typing import Dict
 
-from agent.tools.data_providers.RapidDataProviderBase import RapidDataProviderBase, EndpointSchema
+from agent.tools.data_providers.RapidDataProviderBase import (
+    EndpointSchema, RapidDataProviderBase)
 
 logger = logging.getLogger(__name__)
 
@@ -34,17 +35,15 @@ class ZillowProvider(RapidDataProviderBase):
                     "built_max": "Maximum year built (optional)",
                     "lotSize_min": "Minimum lot size in sqft (optional)",
                     "lotSize_max": "Maximum lot size in sqft (optional)",
-                    "keywords": "Keywords to search for (optional)"
-                }
+                    "keywords": "Keywords to search for (optional)",
+                },
             },
             "search_address": {
                 "route": "/search_address",
                 "method": "GET",
                 "name": "Zillow Address Search",
                 "description": "Search for a specific property by its full address.",
-                "payload": {
-                    "address": "Full property address (required)"
-                }
+                "payload": {"address": "Full property address (required)"},
             },
             "propertyV2": {
                 "route": "/propertyV2",
@@ -53,8 +52,8 @@ class ZillowProvider(RapidDataProviderBase):
                 "description": "Get detailed information about a specific property by zpid or URL.",
                 "payload": {
                     "zpid": "Zillow property ID (optional if URL is provided)",
-                    "url": "Property details URL (optional if zpid is provided)"
-                }
+                    "url": "Property details URL (optional if zpid is provided)",
+                },
             },
             "zestimate_history": {
                 "route": "/zestimate_history",
@@ -63,8 +62,8 @@ class ZillowProvider(RapidDataProviderBase):
                 "description": "Get historical Zestimate values for a specific property.",
                 "payload": {
                     "zpid": "Zillow property ID (optional if URL is provided)",
-                    "url": "Property details URL (optional if zpid is provided)"
-                }
+                    "url": "Property details URL (optional if zpid is provided)",
+                },
             },
             "similar_properties": {
                 "route": "/similar_properties",
@@ -74,8 +73,8 @@ class ZillowProvider(RapidDataProviderBase):
                 "payload": {
                     "zpid": "Zillow property ID (optional if URL or address is provided)",
                     "url": "Property details URL (optional if zpid or address is provided)",
-                    "address": "Property address (optional if zpid or URL is provided)"
-                }
+                    "address": "Property address (optional if zpid or URL is provided)",
+                },
             },
             "mortgage_rates": {
                 "route": "/mortgage/rates",
@@ -90,8 +89,8 @@ class ZillowProvider(RapidDataProviderBase):
                     "loanAmount": "Loan amount category: Micro, SmallConforming, Conforming, SuperConforming, Jumbo (optional)",
                     "loanToValue": "Loan to value ratio: Normal, High, VeryHigh (optional)",
                     "creditScore": "Credit score category: Low, High, VeryHigh (optional)",
-                    "duration": "Duration in days (optional, default: 30)"
-                }
+                    "duration": "Duration in days (optional, default: 30)",
+                },
             },
         }
         base_url = "https://zillow56.p.rapidapi.com"
@@ -99,8 +98,10 @@ class ZillowProvider(RapidDataProviderBase):
 
 
 if __name__ == "__main__":
-    from dotenv import load_dotenv
     from time import sleep
+
+    from dotenv import load_dotenv
+
     load_dotenv()
     tool = ZillowProvider()
 
@@ -112,8 +113,8 @@ if __name__ == "__main__":
             "status": "forSale",
             "sortSelection": "priorityscore",
             "listing_type": "by_agent",
-            "doz": "any"
-        }
+            "doz": "any",
+        },
     )
     logger.debug("Search Result: %s", search_result)
     logger.debug("***")
@@ -123,9 +124,7 @@ if __name__ == "__main__":
     # Example for searching by address
     address_result = tool.call_endpoint(
         route="search_address",
-        payload={
-            "address": "1161 Natchez Dr College Station Texas 77845"
-        }
+        payload={"address": "1161 Natchez Dr College Station Texas 77845"},
     )
     logger.debug("Address Search Result: %s", address_result)
     logger.debug("***")
@@ -134,10 +133,7 @@ if __name__ == "__main__":
     sleep(1)
     # Example for getting property details
     property_result = tool.call_endpoint(
-        route="propertyV2",
-        payload={
-            "zpid": "7594920"
-        }
+        route="propertyV2", payload={"zpid": "7594920"}
     )
     logger.debug("Property Details Result: %s", property_result)
     sleep(1)
@@ -147,10 +143,7 @@ if __name__ == "__main__":
 
     # Example for getting zestimate history
     zestimate_result = tool.call_endpoint(
-        route="zestimate_history",
-        payload={
-            "zpid": "20476226"
-        }
+        route="zestimate_history", payload={"zpid": "20476226"}
     )
     logger.debug("Zestimate History Result: %s", zestimate_result)
     sleep(1)
@@ -159,10 +152,7 @@ if __name__ == "__main__":
     logger.debug("***")
     # Example for getting similar properties
     similar_result = tool.call_endpoint(
-        route="similar_properties",
-        payload={
-            "zpid": "28253016"
-        }
+        route="similar_properties", payload={"zpid": "28253016"}
     )
     logger.debug("Similar Properties Result: %s", similar_result)
     sleep(1)
@@ -180,8 +170,7 @@ if __name__ == "__main__":
             "loanAmount": "Conforming",
             "loanToValue": "Normal",
             "creditScore": "Low",
-            "duration": "30"
-        }
+            "duration": "30",
+        },
     )
     logger.debug("Mortgage Rates Result: %s", mortgage_result)
-  

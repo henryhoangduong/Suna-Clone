@@ -1,6 +1,7 @@
 from typing import Dict
 
-from agent.tools.data_providers.RapidDataProviderBase import RapidDataProviderBase, EndpointSchema
+from agent.tools.data_providers.RapidDataProviderBase import (
+    EndpointSchema, RapidDataProviderBase)
 
 
 class AmazonProvider(RapidDataProviderBase):
@@ -26,8 +27,8 @@ class AmazonProvider(RapidDataProviderBase):
                     "brand": "Find products with a specific brand (optional)",
                     "seller_id": "Find products sold by specific seller (optional)",
                     "four_stars_and_up": "Return product listings with ratings of 4 stars & up (optional)",
-                    "additional_filters": "Any filters available on the Amazon page but not part of this endpoint's parameters (optional)"
-                }
+                    "additional_filters": "Any filters available on the Amazon page but not part of this endpoint's parameters (optional)",
+                },
             },
             "product-details": {
                 "route": "/product-details",
@@ -38,8 +39,8 @@ class AmazonProvider(RapidDataProviderBase):
                     "asin": "Product ASIN for which to get details. Supports batching of up to 10 ASINs in a single request, separated by comma.",
                     "country": "Sets the Amazon domain, marketplace country, language and currency (default: US)",
                     "more_info_query": "A query to search and get more info about the product as part of Product Information, Customer Q&As, and Customer Reviews (optional)",
-                    "fields": "A comma separated list of product fields to include in the response (field projection). By default all fields are returned. (optional)"
-                }
+                    "fields": "A comma separated list of product fields to include in the response (field projection). By default all fields are returned. (optional)",
+                },
             },
             "products-by-category": {
                 "route": "/products-by-category",
@@ -58,8 +59,8 @@ class AmazonProvider(RapidDataProviderBase):
                     "is_prime": "Only return prime products (boolean)",
                     "deals_and_discounts": "Return deals and discounts in a specific condition (NONE, ALL_DISCOUNTS, TODAYS_DEALS)",
                     "four_stars_and_up": "Return product listings with ratings of 4 stars & up (optional)",
-                    "additional_filters": "Any filters available on the Amazon page but not part of this endpoint's parameters (optional)"
-                }
+                    "additional_filters": "Any filters available on the Amazon page but not part of this endpoint's parameters (optional)",
+                },
             },
             "product-reviews": {
                 "route": "/product-reviews",
@@ -74,8 +75,8 @@ class AmazonProvider(RapidDataProviderBase):
                     "star_rating": "Only return reviews with a specific star rating (ALL, 5_STARS, 4_STARS, 3_STARS, 2_STARS, 1_STARS, POSITIVE, CRITICAL)",
                     "verified_purchases_only": "Only return reviews by reviewers who made a verified purchase (boolean)",
                     "images_or_videos_only": "Only return reviews containing images and / or videos (boolean)",
-                    "current_format_only": "Only return reviews of the current format (product variant - e.g. Color) (boolean)"
-                }
+                    "current_format_only": "Only return reviews of the current format (product variant - e.g. Color) (boolean)",
+                },
             },
             "seller-profile": {
                 "route": "/seller-profile",
@@ -85,8 +86,8 @@ class AmazonProvider(RapidDataProviderBase):
                 "payload": {
                     "seller_id": "The Amazon Seller ID for which to get seller profile details",
                     "country": "Sets the Amazon domain, marketplace country, language and currency (default: US)",
-                    "fields": "A comma separated list of seller profile fields to include in the response (field projection). By default all fields are returned. (optional)"
-                }
+                    "fields": "A comma separated list of seller profile fields to include in the response (field projection). By default all fields are returned. (optional)",
+                },
             },
             "seller-reviews": {
                 "route": "/seller-reviews",
@@ -98,9 +99,9 @@ class AmazonProvider(RapidDataProviderBase):
                     "country": "Sets the Amazon domain, marketplace country, language and currency (default: US)",
                     "star_rating": "Only return reviews with a specific star rating or positive / negative sentiment (ALL, 5_STARS, 4_STARS, 3_STARS, 2_STARS, 1_STARS, POSITIVE, CRITICAL)",
                     "page": "The page of seller feedback results to retrieve (default: 1)",
-                    "fields": "A comma separated list of seller review fields to include in the response (field projection). By default all fields are returned. (optional)"
-                }
-            }
+                    "fields": "A comma separated list of seller review fields to include in the response (field projection). By default all fields are returned. (optional)",
+                },
+            },
         }
         base_url = "https://real-time-amazon-data.p.rapidapi.com"
         super().__init__(base_url, endpoints)
@@ -108,6 +109,7 @@ class AmazonProvider(RapidDataProviderBase):
 
 if __name__ == "__main__":
     from dotenv import load_dotenv
+
     load_dotenv()
     tool = AmazonProvider()
 
@@ -121,21 +123,17 @@ if __name__ == "__main__":
             "sort_by": "RELEVANCE",
             "product_condition": "ALL",
             "is_prime": False,
-            "deals_and_discounts": "NONE"
-        }
+            "deals_and_discounts": "NONE",
+        },
     )
     print("Search Result:", search_result)
-    
+
     # Example for product details
     details_result = tool.call_endpoint(
-        route="product-details",
-        payload={
-            "asin": "B07ZPKBL9V",
-            "country": "US"
-        }
+        route="product-details", payload={"asin": "B07ZPKBL9V", "country": "US"}
     )
     print("Product Details:", details_result)
-    
+
     # Example for products by category
     category_result = tool.call_endpoint(
         route="products-by-category",
@@ -146,11 +144,11 @@ if __name__ == "__main__":
             "sort_by": "RELEVANCE",
             "product_condition": "ALL",
             "is_prime": False,
-            "deals_and_discounts": "NONE"
-        }
+            "deals_and_discounts": "NONE",
+        },
     )
     print("Category Products:", category_result)
-    
+
     # Example for product reviews
     reviews_result = tool.call_endpoint(
         route="product-reviews",
@@ -162,21 +160,18 @@ if __name__ == "__main__":
             "star_rating": "ALL",
             "verified_purchases_only": False,
             "images_or_videos_only": False,
-            "current_format_only": False
-        }
+            "current_format_only": False,
+        },
     )
     print("Product Reviews:", reviews_result)
-    
+
     # Example for seller profile
     seller_result = tool.call_endpoint(
         route="seller-profile",
-        payload={
-            "seller_id": "A02211013Q5HP3OMSZC7W",
-            "country": "US"
-        }
+        payload={"seller_id": "A02211013Q5HP3OMSZC7W", "country": "US"},
     )
     print("Seller Profile:", seller_result)
-    
+
     # Example for seller reviews
     seller_reviews_result = tool.call_endpoint(
         route="seller-reviews",
@@ -184,8 +179,7 @@ if __name__ == "__main__":
             "seller_id": "A02211013Q5HP3OMSZC7W",
             "country": "US",
             "star_rating": "ALL",
-            "page": 1
-        }
+            "page": 1,
+        },
     )
     print("Seller Reviews:", seller_reviews_result)
-
