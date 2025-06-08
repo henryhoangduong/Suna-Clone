@@ -35,3 +35,28 @@ async def get_current_user_id_from_jwt(request: Request) -> str:
             detail="Invalid token",
             headers={"WWW-Authenticate": "Bearer"},
         )
+
+
+async def get_account_id_from_thread(client, thread_id: str) -> str:
+    try:
+        response = await client.table('threads').select('account_id').eq('thread_id', thread_id).execute()
+        if not response.data or len(response.data) == 0:
+            raise HTTPException(
+                status_code=404,
+                detail="Thread not found"
+            )
+
+        account_id = response.data[0].get('account_id')
+
+        if not account_id:
+            raise HTTPException(
+                status_code=500,
+                detail="Thread has no associated account"
+            )
+
+        return account_id
+    except Exception as e:
+        raise HTTPException(
+            status_code=500,
+            detail=f"Error retrieving thread information: {str(e)}"
+        )
