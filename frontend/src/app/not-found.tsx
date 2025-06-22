@@ -1,14 +1,14 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { useEffect, useState, useRef } from 'react';
-import { ArrowLeft } from 'lucide-react';
-import { useScroll } from 'motion/react';
-import { FlickeringGrid } from '@/components/home/ui/flickering-grid';
-import { useMediaQuery } from '@/hooks/use-media-query';
+import Link from "next/link";
+import { useEffect, useState, useRef } from "react";
+import { ArrowLeft } from "lucide-react";
+import { useScroll } from "motion/react";
+import { FlickeringGrid } from "@/components/home/ui/flickering-grid";
+import { useMediaQuery } from "@/hooks/use-media-query";
 
 export default function NotFound() {
-  const tablet = useMediaQuery('(max-width: 1024px)');
+  const tablet = useMediaQuery("(max-width: 1024px)");
   const [mounted, setMounted] = useState(false);
   const [isScrolling, setIsScrolling] = useState(false);
   const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
@@ -20,7 +20,7 @@ export default function NotFound() {
 
   // Detect when scrolling is active to reduce animation complexity
   useEffect(() => {
-    const unsubscribe = scrollY.on('change', () => {
+    const unsubscribe = scrollY.on("change", () => {
       setIsScrolling(true);
 
       // Clear any existing timeout
